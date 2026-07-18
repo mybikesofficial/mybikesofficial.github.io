@@ -593,6 +593,26 @@ grid-template-columns:1fr;
 
 }
 
+.stats{
+    background:#0b2b50;
+    color:white;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+    padding:70px 8%;
+    text-align:center;
+}
+
+.stat-box h2{
+    font-size:55px;
+    color:#ffd54f;
+}
+
+.stat-box p{
+    margin-top:10px;
+    font-size:18px;
+}
+
 footer{
 
 background:#111;
