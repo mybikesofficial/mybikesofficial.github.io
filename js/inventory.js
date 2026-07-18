@@ -5,7 +5,7 @@ const scooters = [
     brand: "TVS",
     model: "Jupiter 125",
     dp: "₹4,999",
-    image: "images/jupiter125.png",
+    image: "images/jupiter125.jpeg",
     badge: "BEST SELLER"
 },
 
@@ -13,7 +13,7 @@ const scooters = [
     brand: "TVS",
     model: "Ntorq 125",
     dp: "₹4,999",
-    image: "images/ntorq-red.png",
+    image: "images/ntorq-red.jpeg",
     badge: "SPORTY"
 },
 
@@ -21,7 +21,7 @@ const scooters = [
     brand: "TVS",
     model: "Ntorq Race XP",
     dp: "₹4,999",
-    image: "images/ntorq-yellow.png",
+    image: "images/ntorq-yellow.jpeg",
     badge: "NEW"
 },
 
@@ -29,7 +29,7 @@ const scooters = [
     brand: "Suzuki",
     model: "Burgman Street",
     dp: "₹4,999",
-    image: "images/burgman.png",
+    image: "images/burgman.jpeg",
     badge: "PREMIUM"
 }
 
