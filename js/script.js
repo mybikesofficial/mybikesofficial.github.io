@@ -1,8 +1,31 @@
+const counters = document.querySelectorAll(".counter");
 
-const menu = document.querySelector(".menu-btn");
+counters.forEach(counter=>{
 
-menu.addEventListener("click",()=>{
+    counter.innerText="0";
 
-alert("Mobile menu will be added in the next step.");
+    const update=()=>{
+
+        const target=+counter.getAttribute("data-target");
+
+        const count=+counter.innerText;
+
+        const increment=target/150;
+
+        if(count<target){
+
+            counter.innerText=Math.ceil(count+increment);
+
+            setTimeout(update,15);
+
+        }else{
+
+            counter.innerText=target+"+";
+
+        }
+
+    };
+
+    update();
 
 });
